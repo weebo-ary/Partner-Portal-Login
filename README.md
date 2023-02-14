@@ -13,6 +13,9 @@
 ## Available Scripts
 ### In the project directory, you can run:
 
+### First Step
+<code>npm install</code>
+### Second Step
 <code>npm start</code>
 ### Runs the app in the development mode.
 ### Open http://localhost:3000 to view it in the browser.
