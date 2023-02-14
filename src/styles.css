@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "system-ui";
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_form {
+  padding: 1rem;
+}
+
+.logoSection {
+  display: flex;
+  flex-direction: row;
+  /* background: green; */
+  height: 10vh;
+  padding: 0 0 0 5rem;
+}
+
+.contactBtn {
+  position: "relative";
+  right: 6rem;
+  top: 0.5rem;
+}
+
+.navbar {
+  display: flex;
+  height: 7vh;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logoutSection {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+  }
+  .logoSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+  }
+  .logoTxt {
+    width: 10rem;
+  }
+  .contactBtn {
+    position: "relative;";
+    right: 0;
+    top: 0;
+  }
+}
